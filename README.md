@@ -5,6 +5,11 @@
 This project focuses on human pose estimation using keypoint data from joint positions, specifically tailored for analyzing running poses in sports.
 By leveraging deep learning techniques, the model identifies and assesses the coordinates of key joints such as ankles, knees, hips, shoulders, and elbows, enabling a precise evaluation of an athlete's form during running.
 
+**Objective**
+
+The primary objective of this project is to develop a human pose estimation model that focuses on analyzing key joint coordinates, specifically for sports analytics in activities like running. Unlike traditional pose estimation systems that rely on video data, this model is built using only keypoint coordinates of essential joints such as the ankles, knees, hips, shoulders, and elbows. The aim is to provide a tool that can accurately detect and analyze these keypoints to deliver insights on running posture and biomechanics.
+By doing so, this project seeks to enhance athletic performance by identifying inefficiencies in running form, which can be crucial for optimizing training outcomes. Additionally, it aims to contribute to injury prevention by analyzing the alignment of key joints, thereby helping coaches and athletes correct their posture and reduce the risk of injuries. Furthermore, the model is designed to be scalable for integration into real-time sports analytics systems, providing immediate feedback to athletes during training sessions, thus supporting both performance improvement and safety.
+
 **Project Highlights**
 
 Dataset: The model was trained on a dataset comprising 17,372 samples, each annotated with key joint positions (X, Y coordinates) across various body parts like ankles, knees, hips, shoulders, and wrists.
